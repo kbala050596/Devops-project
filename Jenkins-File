@@ -6,7 +6,7 @@ pipeline {
     stages{
         stage("Checkout from git hub repo"){
             steps{
-            git 'https://github.com/NikitasGithub/DevOpsClassCodes.git'    
+            git 'https://github.com/kbala050596/Devops-project.git'    
             }
         }
          stage("code compile"){
