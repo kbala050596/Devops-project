@@ -10,7 +10,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/NikitasGithub/DevOpsClassCodes'
+                git 'https://github.com/kbala050596/Devops-project.git'
 
             }
             }
