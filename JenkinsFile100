@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('clone the github repo') {
             steps {
-                git 'https://github.com/NikitasGithub/DevOpsClassCodes.git'
+                git 'https://github.com/kbala050596/Devops-project.git'
                 echo 'cloned the repo successfully'
             }
         }
